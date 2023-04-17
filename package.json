@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "fsdt-boilerplates",
   "version": "0.1.0",
   "bin": {
     "fsdt-boilerplates": "bin/fsdt-boilerplates"
