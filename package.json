@@ -1,0 +1,31 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "bin": {
+    "fsdt-boilerplates": "bin/fsdt-boilerplates"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "boilerplate"
+  ],
+  "author": "Felipe Alves da Silva <felipe.silva.devtech@gmail.com>",
+  "repository": "felipe-silva-devtech/fsdt-boilerplates",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm -rf my-app",
+    "basic": "npm run clean && npx fsdt-boilerplates",
+    "full": "npm run clean && npx fsdt-boilerplates --name=my-app --dir=my-app --template=NextJS --noInstall",
+    "help": "npx fsdt-boilerplates --help"
+  },
+  "dependencies": {
+    "arg": "5.0.2",
+    "chalk": "4.1.2",
+    "esm": "3.2.25",
+    "inquirer": "8.0.1",
+    "listr": "0.14.3",
+    "ncp": "2.0.0",
+    "pkg-install": "1.0.0"
+  }
+}
