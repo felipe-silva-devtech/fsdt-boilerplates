@@ -43,3 +43,16 @@ Don't run packages instalation.
 `--help`
 
 Show CLI documentation(WIP).
+
+## Creating new templates
+
+Ensure what you creation has all of this critereas:
+
+- Name of package follow this base `fsdt-boilerplates-[name]`
+  - Remember run `npm install` after change to modify `package-lock.json` to.
+- Version of package need to be `1.0.0`;
+- Typescript (if has possible);
+- Formatters and Code-qualiters libraries;
+- Tests;
+- Simple structure what reproduce the renderization;
+- README.md file with description about the framework, basic installation and running instructions.
