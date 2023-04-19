@@ -8,7 +8,7 @@ import ncp from "ncp";
 import { projectInstall } from "pkg-install";
 
 export async function createBoilerplate(opts) {
-  const TEMPLATE_DIR = path.join("templates", opts.template);
+  const TEMPLATE_DIR = path.resolve(__dirname, "templates", opts.template);
 
   const runningTask = new Listr([
     {

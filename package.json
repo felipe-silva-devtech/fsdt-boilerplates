@@ -2,7 +2,7 @@
   "name": "fsdt-boilerplates",
   "version": "1.0.0",
   "bin": {
-    "fsdt-boilerplates": "bin/fsdt-boilerplates"
+    "fsdt-boilerplates": "fsdt-boilerplates-bin"
   },
   "publishConfig": {
     "access": "public"

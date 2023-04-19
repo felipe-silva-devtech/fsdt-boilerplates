@@ -1,4 +1,5 @@
 import fs from "fs";
+import path from "path";
 
 import arg from "arg";
 import inquirer from "inquirer";
@@ -33,7 +34,7 @@ function argumentOptionsParser(rawArguments) {
 
 async function getTemplatesList() {
   try {
-    const list = fs.readdirSync("templates");
+    const list = fs.readdirSync(path.resolve(__dirname, "templates"));
 
     if (list.length === 0) {
       throw "NO_TEMPLATE";
