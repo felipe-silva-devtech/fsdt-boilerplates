@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prettier": "npx prettier --check src",
-    "format": "next lint --fix && npx prettier --write src",
+    "prettier": "prettier --check src",
+    "format": "next lint --fix && prettier --write src",
     "test": "jest"
   },
   "keywords": [],
