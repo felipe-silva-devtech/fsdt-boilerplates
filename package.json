@@ -1,6 +1,6 @@
 {
   "name": "fsdt-boilerplates",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
     "fsdt-boilerplates": "fsdt-boilerplates-bin"
   },
